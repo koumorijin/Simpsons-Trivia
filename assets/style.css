@@ -1,0 +1,23 @@
+body{
+  
+}
+
+.jumbotron .container{
+  text-align: center;
+}
+
+.jumbotron {
+  padding: 20em;/*
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  /*position: relative;*/
+}
+
+.jumbotron .container h2 {
+  /*color: white;*/
+  text-align: center;
+}
+.jumbotron .container button {
+  text-align: center;
+}
