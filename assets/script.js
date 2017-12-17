@@ -62,19 +62,19 @@ $(document).ready(function(){
 		unanswered ++;
 		gameContainer = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p><p class='text-center'>You took to long!</p><p class='text-center'>The correct answer is " + correctAnswerArray[questionCounter] + "</p><img class='center-block img-responsive' src='./assets/images/bartFail.png'>";
 		$(".start").html(gameContainer);
-		setTimeout(wait,1000); 
+		setTimeout(wait,4000); 
 	}
 	function correctAnswer(){
 		correctAnswers++;
 		gameContainer = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p><p class='text-center'>Nice job hotshot!</p><p class='text-center'>Your answer " + correctAnswerArray[questionCounter] + " is correct!</p><img class='center-block img-responsive' src='./assets/images/bartSlingShot.png'>";
 		$(".start").html(gameContainer);
-		setTimeout(wait,1000);
+		setTimeout(wait,4000);
 	}
 	function wrongAnswer(){
 		wrongAnswers++;
 		gameContainer = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p><p class='text-center'>Doh!</p><p class='text-center'>The correct answer is " + correctAnswerArray[questionCounter] + "</p><img class='center-block img-responsive' src='./assets/images/bartFail.png'>";
 		$(".start").html(gameContainer);
-		setTimeout(wait,1000);
+		setTimeout(wait,4000);
 	}
 	function wait(){
 		if(questionCounter < 9){
