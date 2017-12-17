@@ -7,11 +7,11 @@ body{
 }
 
 .jumbotron {
-  padding: 20em;/*
+  /* padding: 20em;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;*/
-  /*position: relative;*/
+  background-size: cover;
+  position: relative;*/
 }
 
 .jumbotron .container h2 {
@@ -22,10 +22,10 @@ body{
   text-align: center;
 }
 .question-image {
-	margin-bottom: : 5em;
+	margin-bottom: : 1px;
 }
 .answer {
-	padding-top: 7px;
+	padding-top: 3px;
 	padding-left: 14px;
 	background-color: white;
 	height: 45px;
